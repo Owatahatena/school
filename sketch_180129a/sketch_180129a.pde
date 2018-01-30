@@ -54,4 +54,6 @@ void draw(){
       rect(i*masu, j*masu, masu, masu);
     }
   }
+  PImage saveImage = get(0,0, width, height);
+  saveImage.save("./test.png");
 }
